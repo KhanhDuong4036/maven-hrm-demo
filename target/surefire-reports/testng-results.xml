@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HRM" duration-ms="29028" started-at="2022-10-31T13:50:44Z" finished-at="2022-10-31T13:51:13Z">
+    <groups>
+    </groups>
+    <test name="Run on CHROME" duration-ms="29028" started-at="2022-10-31T13:50:44Z" finished-at="2022-10-31T13:51:13Z">
+      <class name="hrm.login.Login">
+        <test-method status="PASS" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:hrm.login.Login@7fcbe147]" name="deleteAllFilesInReportNGScreenshot" is-config="true" duration-ms="31" started-at="2022-10-31T13:50:44Z" finished-at="2022-10-31T13:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllFilesInReportNGScreenshot -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:hrm.login.Login@7fcbe147]" name="beforeClass" is-config="true" duration-ms="8666" started-at="2022-10-31T13:50:44Z" finished-at="2022-10-31T13:50:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Login_With_Invalid_Account()[pri:0, instance:hrm.login.Login@7fcbe147]" name="Login_With_Invalid_Account" duration-ms="2343" started-at="2022-10-31T13:50:53Z" finished-at="2022-10-31T13:50:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Invalid_Account -->
+        <test-method status="PASS" signature="Login_With_Valid_Account()[pri:0, instance:hrm.login.Login@7fcbe147]" name="Login_With_Valid_Account" duration-ms="5249" started-at="2022-10-31T13:50:55Z" finished-at="2022-10-31T13:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_With_Valid_Account -->
+        <test-method status="PASS" signature="cleanBrowser()[pri:0, instance:hrm.login.Login@7fcbe147]" name="cleanBrowser" is-config="true" duration-ms="1031" started-at="2022-10-31T13:51:01Z" finished-at="2022-10-31T13:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanBrowser -->
+      </class> <!-- hrm.login.Login -->
+      <class name="hrm.login.Dashboard">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:hrm.login.Dashboard@235f4c10]" name="beforeClass" is-config="true" duration-ms="6640" started-at="2022-10-31T13:51:02Z" finished-at="2022-10-31T13:51:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Add_New_Employee()[pri:0, instance:hrm.login.Dashboard@235f4c10]" name="Add_New_Employee" duration-ms="4383" started-at="2022-10-31T13:51:08Z" finished-at="2022-10-31T13:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_New_Employee -->
+        <test-method status="PASS" signature="cleanBrowser()[pri:0, instance:hrm.login.Dashboard@235f4c10]" name="cleanBrowser" is-config="true" duration-ms="593" started-at="2022-10-31T13:51:13Z" finished-at="2022-10-31T13:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanBrowser -->
+      </class> <!-- hrm.login.Dashboard -->
+    </test> <!-- Run on CHROME -->
+  </suite> <!-- HRM -->
+</testng-results>
